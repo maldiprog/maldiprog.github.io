@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&family=Gloock&family=Patrick+Hand&family=Shantell+Sans:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>CURRICULUM VITAE</h1>
+    <H2>Datos personales</H2>
+    <p id="datos-pers">
+     <img src="https://randomuser.me/api/portraits/women/62.jpg">
+
+     <ul> 
+        <li>Nombre: Clara Shuff </li> 
+        <li>Edad: 28 años</li> 
+        <li>Estudios: Completos</li> 
+        <li>Residencia: Capital</li> 
+        <li>Telefono: 4444-5000</li> 
+    </ul>
+     
+    </p>
+    
+    <H2>Empleo Actual</H2>
+   
+    <p id="empleo-actual">
+        Cras at risus et neque interdum laoreet in aliquet risus. Sed in dui a felis rhoncus lacinia sit amet et nisi. Phasellus placerat vulputate convallis. Curabitur laoreet felis sit amet dui condimentum tincidunt. Pellentesque ac mi metus. Phasellus sed elit eget magna condimentum mollis. Fusce accumsan dictum lorem eu efficitur.
+    </p>
+    <p>
+        <button id="boton" class="boton">REFERENCIA TRABAJO ACTUAL</button>
+ 
+    </p>
+    <div id="emp-actual"></div>
+    <div id="emp-historia"></div>
+    
+    <script>
+    
+    function cambiar () {
+    document.getElementById("emp-actual").innerHTML=(4544555);   
+        
+     }
+     document.getElementById("boton").onclick=function(){
+     cambiar();
+       }
+    </script>
+    </p>
+
+   
+        
+    <H2>Historia Laboral</H2>
+    <p id="historia">
+        Cras at risus et neque interdum laoreet in aliquet risus. Sed in dui a felis rhoncus lacinia sit amet et nisi. Phasellus placerat vulputate convallis. Curabitur laoreet felis sit amet dui condimentum tincidunt. Pellentesque ac mi metus. Phasellus sed elit eget magna condimentum mollis. Fusce accumsan dictum lorem eu efficitur.
+    
+    </p>
+<p>
+    <button id="boton" class="boton">REFERENCIA TRABAJO ANTERIOR</button>
+
+</p>
+  <script> 
+function cambiar () {
+    document.getElementById("emp-historia").innerHTML=(5455111);
+}
+document.getElementById("boton").onclick=function(){
+    cambiar();
+}
+</script>
+
+    <section>
+
+        <h1>INTERESES</h1>
+        <p>Hobbies y tiempo libre</p>
+        <ul>
+            <li>Poesia</li>
+            <li>Camping</li>
+            <li>Esqui Acuatico</li>
+        </ul>
+    </section>
+
+    <script src="cv.js" ></script> <script></script>
+   
+    
+    <H2>Fortalezas y Debilidades</H2> 
+    <div id="fortaleza"></div>
+    <div id="debilidad"></div>
+<select id="menu">
+    <option>Fortalezas</option>
+    <option>Debilidades</option>
+    </select>
+    <button onclick="verificarmenu()">Click</button>
+    <div id="fortaleza"></div>
+    <div id="debilidad"></div>
+
+
+
+
+</body>
+
+</html>
+
